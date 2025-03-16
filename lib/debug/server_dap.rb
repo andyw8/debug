@@ -155,6 +155,12 @@ module DEBUGGER__
                  #conditionDescription: '',
                },
                {
+                 filter: 'StandardError',
+                 label: 'rescue StandardError',
+                 supportsCondition: true,
+                 #conditionDescription: '',
+               },
+               {
                  filter: 'RuntimeError',
                  label: 'rescue RuntimeError',
                  supportsCondition: true,

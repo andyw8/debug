@@ -40,6 +40,10 @@ module DEBUGGER__
                   label: "rescue any exception"
                 },
                 {
+                  filter: "StandardError",
+                  label: "rescue StandardError"
+                },
+                {
                   filter: "RuntimeError",
                   label: "rescue RuntimeError"
                 }
