@@ -378,6 +378,8 @@ module DEBUGGER__
               SESSION.add_catch_breakpoint 'Exception', cond: cond
             when 'RuntimeError'
               SESSION.add_catch_breakpoint 'RuntimeError', cond: cond
+            when 'StandardError'
+              SESSION.add_catch_breakpoint 'StandardError', cond: cond
             else
               nil
             end
